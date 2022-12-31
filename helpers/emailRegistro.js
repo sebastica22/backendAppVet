@@ -19,7 +19,7 @@ const emailRegistro = async (datos) => {
         text: 'Comprueba tu cuenta en appvet',
         html: `<p> Hola: ${nombre}, comprueba tu cuenta en appvet.</p>
               <p> Tu cuenta ha sido creada, has click en el siguiente enlace:
-              <a href="${process.env.FRONTEND_URL}/${token}">Comprobar cuenta</a> </p>
+              <a href="${process.env.FRONTEND_URL2}/Confirmar-cuentas/${token}">Comprobar cuenta</a> </p>
               <p> Si tu no creaste esta cuenta, ignora este mensaje. </p>
         ` 
       });
